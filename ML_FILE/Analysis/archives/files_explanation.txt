@@ -1,0 +1,20 @@
+This repository (archive) gather some files that are no longer used to create the models, but that
+where used to search for the best model, you can still explore the files to see how research was done,
+and why some features/ ways have been selected and not others. You can use these files as a basis 
+for developing new models.
+You can also explore theses files if you want to try different methods to create models, thus you can 
+take some methods from these files
+
+-- Gyr_analysis_chaos : 
+gather different features transformation, and different tests that have been done to see the utility
+of these transformations, 
+for examples there has been tests carried out taking the sinus of roll, pitch
+yaw angles, to suppress the "gap effects" when something goes from 180 to -180 deg suddenly.
+With this file, you can also explore some visual analysis (as plot of multiple curves).
+
+
+
+-- Original acc/gyr analysis_AI
+The non simplified files of Acc_analysis_AI_simplified and Gyr_analysis_AI_simplified, you can find others
+methods explored on these files, as the rolling window method (consist of applying function on a fixed number
+of previous samples).
